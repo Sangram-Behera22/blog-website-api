@@ -4,7 +4,7 @@
   "description": "this project contains rest api for my blog website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "blog-api",
@@ -22,5 +22,6 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.7"
-  }
+  },
+  "type": "module"
 }
